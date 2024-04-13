@@ -18,7 +18,14 @@ class comparator_int {
         {
             System.out.println(a+"="+b);
         }
+        if (b == 0)
+        {
+            System.out.println((a+b)+" "+(a-b)+" "+(a*b)+" "+"<<Делить на 0 нельзя>>");
+        }
+        else 
+        {
+            System.out.println((a+b)+" "+(a-b)+" "+(a*b)+" "+(a/b));
+        }
         
-        System.out.println((a+b)+" "+(a-b)+" "+(a*b)+" "+(a/b));
     }
 }
